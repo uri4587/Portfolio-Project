@@ -6,17 +6,28 @@ header {
     display: flex;
     flex-direction: row;
     background-color: black;
+    height: 8vh;
     color: white;
 
 }
 
-ul {
+.nav-list {
     display: flex;
     list-style: none;
     margin-top: 3%;
     
 }
+/* styling for nav links  */
+.nav-links {
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    
+}
 
-li {
-    padding: 10px 15px;
+/* hover effect for nav links  */
+.nav-links:hover {
+    text-decoration: underline;
+    background: lightblue;
+    border-radius: 2px;
 }
